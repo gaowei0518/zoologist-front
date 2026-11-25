@@ -60,7 +60,7 @@ param = {"island":island,
          "sex":sex
     }
 
-base_url = "https://zoo-api-690400076070.europe-west1.run.app/predict"
+base_url = st.secrets['BASE_URL']
 
 if st.button('click me to predict'):
     res = requests.get(base_url,params=param)

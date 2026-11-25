@@ -11,3 +11,6 @@ wheels/
 
 # agent skills
 .agents/*
+
+# streamlit
+.streamlit/*
